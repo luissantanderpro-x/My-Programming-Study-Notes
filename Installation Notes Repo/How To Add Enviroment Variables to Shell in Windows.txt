@@ -1,0 +1,20 @@
+If PowerShell is not recognizing the `pip` command, it indicates that the Python Scripts directory is not properly added to your system's PATH environment variable. Here's what you can do to resolve this issue:
+
+1. **Check Python Installation**: First, ensure that Python is installed correctly on your system. You can do this by typing `python --version` in PowerShell. If Python is installed, it will display the installed version.
+
+2. **Locate Python Scripts Directory**: Find the directory where Python scripts are installed. By default, it should be located in the `Scripts` directory within your Python installation directory. For example, `C:\Python\Scripts`.
+
+3. **Add Python Scripts Directory to PATH**: You need to add the Python Scripts directory to your system's PATH environment variable. You can do this manually or through PowerShell.
+
+   To do it manually:
+   - Right-click on "This PC" or "My Computer" and select "Properties".
+   - Click on "Advanced system settings".
+   - In the System Properties window, click on the "Environment Variables..." button.
+   - In the Environment Variables window, locate the "Path" variable in the "System variables" section and select it.
+   - Click on the "Edit..." button.
+   - Add the path to the Python Scripts directory (e.g., `C:\Python\Scripts`) to the list of paths. Separate multiple paths with semicolons.
+   - Click "OK" to close all windows.
+
+4. **Verify Installation**: After adding the Python Scripts directory to the PATH variable, close and reopen PowerShell. Then try running `pip install notebook` again. PowerShell should now recognize the `pip` command and install Jupyter Notebook without any issues.
+
+By adding the Python Scripts directory to your system's PATH environment variable, PowerShell will be able to locate the `pip` command and execute it properly.
