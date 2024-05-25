@@ -7,8 +7,24 @@ My collection of study notes I use to study programming concepts.
 3. Doubly Linked List Data Structure
 4. Stacks Data Structure
 5. Queues Data Structure 
+6. Binary Search Trees
+7. Graph Algorithms
+8. Substring Search Algorithms
+9. Sorting Algorithms
+10. AVL Trees 
 
 ### Coding Bat Challenges 
+
+### Leetcode Problem Sets
+1. Easy Problems
+    - Arrays 
+    - Math Based
+    - Strings
+2. Medium Problems 
+    - Arrays
+    - Strings
+3. Hard Problems
+    - Arrays
 
 #### Programming Study Notes 
 1. CS3650 - Computer Architecture
