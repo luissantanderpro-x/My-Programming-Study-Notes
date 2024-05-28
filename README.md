@@ -15,6 +15,8 @@ My collection of study notes I use to study programming concepts.
 
 ### Coding Bat Challenges 
 
+### Deep Learning PyTorch
+
 ### Leetcode Problem Sets
 1. Easy Problems
     - Arrays 
