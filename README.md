@@ -45,3 +45,5 @@ My collection of study notes I use to study programming concepts.
 3. CS3331 - Advanced Algorithms Study
 4. Various Installation Notes
 5. Software Architecture & Design Patterns Notes
+
+------------------
